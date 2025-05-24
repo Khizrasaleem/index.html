@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RealEstast Header</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .top-bar {
+      background-color: #111;
+      color: #fff;
+      padding: 5px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+    }
+
+    .top-bar .support {
+      display: flex;
+      align-items: center;
+    }
+
+    .top-bar .icons {
+      display: flex;
+      gap: 10px;
+    }
+
+    .top-bar .icons i {
+      cursor: pointer;
+    }
+
+    .main-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      background-color: #fff;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .logo {
+      background-color: #d33;
+      color: #fff;
+      padding: 10px 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    nav ul li a.active {
+      color: red;
+    }
+  </style>
+
+  <!-- Optional Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Listing</title>
+    <style>
+      body, html {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+  
+      .hero-section {
+        background-image: url("img/slider1.jpg"); /* Replace with your image */
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        color: white;
+        position: relative;
+      }
+  
+      .overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+  
+      .property-details {
+        max-width: 600px;
+      }
+  
+      .price-tag {
+        background-color: red;
+        padding: 10px 15px;
+        display: inline-block;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+  
+      .search-filters {
+        margin-top: 30px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        color: black;
+      }
+  
+      .search-filters select,
+      .search-filters button {
+        padding: 10px;
+        font-size: 14px;
+      }
+  
+      .search-filters button {
+        background-color: red;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+  
+      .search-filters select {
+        flex: 1;
+        min-width: 150px;
+      }
+    </style>
+    </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Real Estate Listings</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+      </head>
+      <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Real Estate Agents</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Footer Layout</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+<body>
+
+  <div class="top-bar">
+    <div class="support">
+      <i class="fas fa-phone"></i>&nbsp; Need Support? 1-800-666-8888
+    </div>
+    <div class="icons">
+      <i class="fas fa-user"></i>
+      <i class="fas fa-heart"></i>
+      <i class="fas fa-search"></i>
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-twitter"></i>
+    </div>
+  </div>
+
+  <div class="main-header">
+    <div class="logo">
+      RealEstast
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#" class="active">HOME</a></li>
+        <li><a href="#">PROPERTIES</a></li>
+        <li><a href="#">AGENTS</a></li>
+        <li><a href="#">PAGES</a></li>
+        <li><a href="#">BLOG</a></li>
+        <li><a href="#">CONTACT US</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="hero-section">
+    <div class="overlay">
+      <div class="property-details">
+        <div class="price-tag">$250,000</div>
+        <h2>Chatham St NW, Roanoke, VA 24012</h2>
+        <p>Set perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium.</p>
+      </div>
+      <form class="search-filters">
+        <select>
+          <option>Property Status</option>
+        </select>
+        <select>
+          <option>Location</option>
+        </select>
+        <select>
+          <option>Property Type</option>
+        </select>
+        <select>
+          <option>Area From</option>
+        </select>
+        <select>
+          <option>Bedrooms</option>
+        </select>
+        <select>
+          <option>Bathrooms</option>
+        </select>
+        <select>
+          <option>Price From</option>
+        </select>
+        <select>
+          <option>Price To</option>
+        </select>
+        <button type="submit">Find Your Home</button>
+      </form>
+    </div>
+  </div>
+  class="bg-gray-100 text-gray-800">
+
+  <!-- Top Featured Section -->
+  <section class="grid grid-cols-3 gap-4 p-6">
+    <div class="col-span-2 h-50 bg-cover bg-center rounded-lg shadow-lg" style="background-image: url(img/imagereader.webp);">
+      <div class="bg-black bg-opacity-50 text-white p-4 h-full flex items-end rounded-lg">
+        <h2 class="text-2xl font-semibold">ALPINE REAL ESTATE LUX VILLAS</h2>
+      </div>
+    </div>
+    <div class="grid grid-rows-3 gap-4">
+      <div class="h-20 bg-cover bg-center rounded-lg" style="background-image: url(img/images.jpg);"></div>
+      <div class="h-20 bg-cover bg-center rounded-lg" style="background-image: url(img/download\ \(7\).jpg);"></div>
+      <div class="h-20 bg-cover bg-center rounded-lg" style="background-image: url(img/premium_photo-1661902934269-17eaf4b04f9f.jpg);"></div>
+    </div>
+  </section>
+
+  <!-- Property Filter and Title -->
+  <section class="px-6">
+    <h3 class="text-2xl font-bold mb-4">PROPERTIES</h3>
+    <div class="mb-6 space-x-2">
+      <button class="bg-black text-white px-4 py-1 rounded">All</button>
+      <button class="bg-gray-200 px-4 py-1 rounded">House</button>
+      <button class="bg-gray-200 px-4 py-1 rounded">Office</button>
+      <button class="bg-gray-200 px-4 py-1 rounded">Apartment</button>
+      <button class="bg-gray-200 px-4 py-1 rounded">Industrial</button>
+    </div>
+
+    <!-- Property Cards Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+      <!-- Card 1 -->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="img/download (1).jpg" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <span class="text-xs bg-red-600 text-white px-2 py-1 rounded">For Rent</span>
+          <h4 class="font-semibold text-lg mt-2">Peaceful Modern House on a Wide Area</h4>
+          <p class="text-sm text-gray-600 mt-1">Ashburn, VA 20147</p>
+          <p class="text-xs text-gray-400 mt-2">Area: 4800 ft²</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="img/images.jpg" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <span class="text-xs bg-red-600 text-white px-2 py-1 rounded">For Rent</span>
+          <h4 class="font-semibold text-lg mt-2">Resort-Styled House</h4>
+          <p class="text-sm text-gray-600 mt-1">Leesburg, VA 20176</p>
+          <p class="text-xs text-gray-400 mt-2">Area: 4800 ft²</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="img/download (3).jpg" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <span class="text-xs bg-red-600 text-white px-2 py-1 rounded">For Sale</span>
+          <h4 class="font-semibold text-lg mt-2">Craftsman-Styled Family Home</h4>
+          <p class="text-sm text-gray-600 mt-1">Herndon, VA 20170</p>
+          <p class="text-xs text-gray-400 mt-2">Area: 4800 ft²</p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="img/download (4).jpg" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <span class="text-xs bg-red-600 text-white px-2 py-1 rounded">For Sale</span>
+          <h4 class="font-semibold text-lg mt-2">Cottage Home with Garden</h4>
+          <p class="text-sm text-gray-600 mt-1">Fairfax, VA 22030</p>
+          <p class="text-xs text-gray-400 mt-2">Area: 4800 ft²</p>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="img/download (5).jpg" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <span class="text-xs bg-red-600 text-white px-2 py-1 rounded">For Rent</span>
+          <h4 class="font-semibold text-lg mt-2">Modern Villa in Ashburn</h4>
+          <p class="text-sm text-gray-600 mt-1">Ashburn, VA 20147</p>
+          <p class="text-xs text-gray-400 mt-2">Area: 4800 ft²</p>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="img/download (6).jpg" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <span class="text-xs bg-red-600 text-white px-2 py-1 rounded">For Sale</span>
+          <h4 class="font-semibold text-lg mt-2">Farmhouse with Courtyard</h4>
+          <p class="text-sm text-gray-600 mt-1">Manassas, VA 20110</p>
+          <p class="text-xs text-gray-400 mt-2">Area: 4800 ft²</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  class="bg-white text-gray-800 font-sans">
+
+  <!-- Our Agents -->
+  <section class="px-6 py-12 bg-white">
+    <h2 class="text-2xl font-bold mb-6">OUR AGENTS</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      
+      <!-- Agent 1 -->
+      <div class="border border-gray-300 p-6 rounded-md bg-gray-50">
+        <div class="h-24 w-24 bg-gray-300 rounded-md mb-4"></div>
+        <h3 class="font-semibold text-lg">John Smith</h3>
+        <p class="text-sm text-gray-600 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo velit ut massa scelerisque.</p>
+        <ul class="text-sm text-gray-700 space-y-1">
+          <li><strong>Tel:</strong> (123)-456-9999</li>
+          <li><strong>Mobile:</strong> (123)-456-8888</li>
+          <li><strong>Email:</strong> <a href="mailto:john@example.com" class="text-blue-600">john@example.com</a></li>
+        </ul>
+      </div>
+
+      <!-- Agent 2 -->
+      <div class="border border-gray-300 p-6 rounded-md bg-gray-50">
+        <div class="h-24 w-24 bg-gray-300 rounded-md mb-4"></div>
+        <h3 class="font-semibold text-lg">Andrew McCarthy</h3>
+        <p class="text-sm text-gray-600 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo velit ut massa scelerisque.</p>
+        <ul class="text-sm text-gray-700 space-y-1">
+          <li><strong>Tel:</strong> (123)-456-9999</li>
+          <li><strong>Mobile:</strong> (123)-456-8888</li>
+          <li><strong>Email:</strong> <a href="mailto:andrew@example.com" class="text-blue-600">andrew@example.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom Section: Who We Are | Why Choose Us | Happy Clients -->
+  <section class="px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-8 bg-gray-50">
+
+    <!-- Who We Are -->
+    <div>
+      <h3 class="text-xl font-bold mb-4">WHO WE ARE</h3>
+      <img src="img/download (8).jpg" alt="Who We Are" class="rounded-lg mb-4">
+      <p class="text-sm text-gray-700 mb-3">Nunc massa lobortis elit ipsum varius tincidunt. Suspendisse vulputate accumsan sollicitudin. Vestibulum ante ipsum primis in faucibus.</p>
+      <button class="mt-2 px-4 py-2 border border-black text-black rounded hover:bg-black hover:text-white transition">VIEW MORE</button>
+    </div>
+
+    <!-- Why Choose Us -->
+    <div>
+      <h3 class="text-xl font-bold mb-4">WHY CHOOSE US</h3>
+      <div class="space-y-3">
+        <details class="bg-white p-4 border rounded">
+          <summary class="font-medium cursor-pointer">DESIRE FOR YOUR BUSINESS</summary>
+          <p class="mt-2 text-sm text-gray-600">Sed pellentesque odio sed convallis mollis. Aenean non sapien fermentum erat viverra.</p>
+        </details>
+        <details class="bg-white p-4 border rounded">
+          <summary class="font-medium cursor-pointer">FULLY EXPERIENCED</summary>
+          <p class="mt-2 text-sm text-gray-600">Praesent lacinia ligula sed lorem laoreet congue. Nulla facilisi.</p>
+        </details>
+        <details class="bg-white p-4 border rounded">
+          <summary class="font-medium cursor-pointer">UNIQUE CUSTOMERS</summary>
+          <p class="mt-2 text-sm text-gray-600">Aliquam erat volutpat. Integer et dolor ac sapien laoreet viverra.</p>
+        </details>
+        <details class="bg-white p-4 border rounded">
+          <summary class="font-medium cursor-pointer">LUXURY DESIGN</summary>
+          <p class="mt-2 text-sm text-gray-600">Curabitur at orci non nunc vulputate tincidunt. Donec imperdiet feugiat fermentum.</p>
+        </details>
+      </div>
+    </div>
+
+    <!-- Happy Clients -->
+    <div class="bg-white p-6 rounded shadow-md text-center">
+      <h3 class="text-xl font-bold mb-4">HAPPY CLIENTS</h3>
+      <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client" class="w-24 h-24 rounded-full mx-auto mb-4">
+      <h4 class="text-lg font-semibold">Andrea Richardson</h4>
+      <p class="text-sm text-gray-500 mb-3">Seller</p>
+      <p class="text-sm text-gray-600 italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum ligula et nisl tincidunt gravida."</p>
+    </div>
+
+  </section>
+  class="bg-gray-100">
+
+  <!-- Footer -->
+  <footer class="bg-[#111111] text-white text-sm pt-12 pb-6 px-6 md:px-16">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+      
+      <!-- Contact Detail -->
+      <div>
+        <h4 class="text-lg font-semibold mb-4">CONTACT DETAIL</h4>
+        <p class="mb-2">401 Broadway, 24th Floor, Orchard Cloud View, London, UK</p>
+        <p class="mb-1">Phone: +44 987 065 908</p>
+        <p class="mb-1">Mobile: +44 987 065 909</p>
+        <p class="mb-1">Email: info@example.com</p>
+      </div>
+
+      <!-- Useful Links -->
+      <div>
+        <h4 class="text-lg font-semibold mb-4">USEFUL LINKS</h4>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:underline">Home</a></li>
+          <li><a href="#" class="hover:underline">About Us</a></li>
+          <li><a href="#" class="hover:underline">How it Works</a></li>
+          <li><a href="#" class="hover:underline">Free Credit Report</a></li>
+          <li><a href="#" class="hover:underline">Terms and Conditions</a></li>
+          <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+          <li><a href="#" class="hover:underline">Community Guidelines</a></li>
+        </ul>
+      </div>
+
+      <!-- Pages -->
+      <div>
+        <h4 class="text-lg font-semibold mb-4">PAGES</h4>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:underline">How It Work</a></li>
+          <li><a href="#" class="hover:underline">Blog</a></li>
+          <li><a href="#" class="hover:underline">Contact Us</a></li>
+          <li><a href="#" class="hover:underline">Apply Loan</a></li>
+          <li><a href="#" class="hover:underline">Affiliate Program</a></li>
+          <li><a href="#" class="hover:underline">Career</a></li>
+        </ul>
+      </div>
+
+      <!-- Don't Miss Out -->
+      <div>
+        <h4 class="text-lg font-semibold mb-4">DON’T MISS OUT</h4>
+        <p class="mb-4">Subscribe to receive the latest news and updates from our team.</p>
+        <form class="flex">
+          <input type="email" placeholder="Enter your email here" class="w-full px-3 py-2 rounded-l-sm text-black focus:outline-none" />
+          <button type="submit" class="bg-white text-black px-4 py-2 rounded-r-sm hover:bg-gray-200">→</button>
+        </form>
+      </div>
+
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="max-w-7xl mx-auto mt-10 border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center text-gray-400 text-xs">
+      <p class="mb-4 md:mb-0">Copyright © 2025. All Rights Reserved. Designed by <span class="text-red-500">Webstrot</span></p>
+      <a href="#" class="bg-gray-800 p-2 rounded-full hover:bg-gray-700 transition">↑</a>
+    </div>
+  </footer>
+
+
+</body>
+</html>
